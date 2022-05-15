@@ -1,9 +1,9 @@
+
+
+package ende;
 /**
  *  Abtracción de un Jugador al Piedra, Papel o Tijera.
  */
-
-package ende;
-
 class Jugador {
     public static final String PIEDRA = "piedra";
     public static final String PAPEL = "papel";

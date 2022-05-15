@@ -1,9 +1,9 @@
-/**
- * Simula el juego de Piedra, Papel o Tijera
- */
 
 package ende;
 
+/**
+ * Simula el juego de Piedra, Papel o Tijera
+ */
 public class Juego {
     public static void main(String[] args) {
         Jugador jugador1 = new Jugador();
@@ -50,7 +50,7 @@ public class Juego {
 
             }
 
-            if (opcionJugador1 == opcionJugador2) {
+            if (opcionJugador1.equals(opcionJugador2)) {
             	empates++;
                 System.out.println("\n\t\t\t Empate \n");
 
