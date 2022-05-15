@@ -1,7 +1,7 @@
 package ende;
 
 /**
- *
+ *  Abtracción de un Jugador al Piedra, Papel o Tijera.
  */
 class Jugador{
 

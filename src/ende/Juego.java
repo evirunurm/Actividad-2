@@ -1,7 +1,7 @@
 package ende;
 
 /**
- * Simula el juego de Piedra, Papel o tijera
+ * Simula el juego de Piedra, Papel o Tijera
  */
 
 public class Juego
