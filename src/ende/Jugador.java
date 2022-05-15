@@ -1,8 +1,9 @@
-package ende;
-
 /**
  *  Abtracción de un Jugador al Piedra, Papel o Tijera.
  */
+
+package ende;
+
 class Jugador{
 
     /**
