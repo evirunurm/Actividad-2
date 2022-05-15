@@ -66,6 +66,6 @@ public class Juego {
 
             System.out.println();
 
-        } while (finDeJuego!=true);
+        } while (!finDeJuego);
     }
 }
