@@ -8,15 +8,14 @@ class Jugador {
     public static final String PIEDRA = "piedra";
     public static final String PAPEL = "papel";
     public static final String TIJERAS = "tijeras";
-    int exitos;      // número de partidas ganadas
-    int winTotal;
+    int exitos;
 
     /**
      * Escoge piedra, papel o tijera al azar
      */
     public String opcionAlAzar() {
         String opcion = "";
-        Integer num = (int) (Math.random() * 3);
+        int num = (int) (Math.random() * 3);
         switch (num) {
             case 0:
                 opcion = PIEDRA;
