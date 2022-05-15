@@ -5,7 +5,7 @@
 package ende;
 
 public class Juego {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Jugador jugador1 = new Jugador();
         Jugador jugador2 = new Jugador();
         boolean finDeJuego = false;
